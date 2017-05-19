@@ -1,0 +1,15 @@
+// Padding to be set for the whole project for consistent vertical rhythm and
+// horizontal spacing.  Add more if required e.g. .pad-x-large
+.pad-x {
+
+}
+.pad-y {
+
+}
+
+// Vertical align middle, can probably replace this with flex soon(TM)
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
