@@ -949,7 +949,8 @@ hgroup h2.site-description {
 
 .footer-widgets-block {
   box-sizing: border-box;
-  padding: 30px;
+  padding: 15px 30px 30px;
+  border-top: 1px solid #eaeaea;
 }
 
 #footer-widgets {
@@ -957,6 +958,13 @@ hgroup h2.site-description {
 }
 
 @media screen and (min-width: 769px) {
+  #footer-widget-1 {
+    padding-left: 15px;
+  }
+
+  #footer-widget-3 {
+    padding-right: 15px;
+  }
   .footer-widgets-block {
     width:33%;
     float:left;
