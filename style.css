@@ -830,10 +830,10 @@ hgroup h2.site-description {
   background: linear-gradient(124deg, #b12606, #d14616, #e3621c, #f8da2d, #a4c932, #33cc99, #19cbb8, #039bf5, #7400ff, #fb03fe );
   background-size: 1800% 1800%;
 
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
+  -webkit-animation: rainbow 15s ease infinite;
+  -z-animation: rainbow 15s ease infinite;
+  -o-animation: rainbow 15s ease infinite;
+  animation: rainbow 15s ease infinite;
 }
 
 @-webkit-keyframes rainbow {
