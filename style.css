@@ -388,7 +388,7 @@ button,
 input,
 select,
 textarea {
-  color: #404040;
+  color: #3a231f;
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-size: 16px;
@@ -467,7 +467,7 @@ big {
 --------------------------------------------------------------*/
 
 .main-navigation {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -875,7 +875,7 @@ hgroup h2.site-description {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   hgroup {
     margin-top: 59px;
   }
