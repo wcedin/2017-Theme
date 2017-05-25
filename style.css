@@ -507,6 +507,10 @@ big {
   transition: color 300ms;
 }
 
+.main-navigation ul > li:last-child a {
+  padding-right:15px;
+}
+
 .main-navigation ul > li a:hover {
   color: #d14616;
 }
@@ -550,6 +554,14 @@ big {
 /* order of following 3 rules important for fallbacks to work */
   border: 4px solid transparent;
   border-top-color: #ad4c23;
+}
+
+.main-navigation ul > li.menu-item-has-children:last-child > a:after {
+  margin-right:-30px;
+}
+
+.main-navigation ul li.menu-item-has-children:last-child ul {
+  right: 0;
 }
 
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
