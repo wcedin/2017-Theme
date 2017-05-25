@@ -946,6 +946,7 @@ input[type="submit"] {
   font-size: 1.2rem;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 .btn:focus,
 .btn:hover,
