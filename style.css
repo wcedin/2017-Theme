@@ -503,7 +503,23 @@ big {
 }
 
 .main-navigation ul > li a:hover {
-  color: #e3463a;
+  color: #d14616;
+}
+
+.main-navigation ul > li:nth-child(2) a:hover {
+  color: #f8da2d;
+}
+
+.main-navigation ul > li:nth-child(3) a:hover {
+  color: #039cf5;
+}
+
+.main-navigation ul > li:nth-child(4) a:hover {
+  color: #fa03fd;
+}
+
+.main-navigation ul > li:nth-child(5) a:hover {
+  color: #7200fe;
 }
 
 .main-navigation ul > li:first-child a:before {
