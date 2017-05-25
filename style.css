@@ -596,7 +596,7 @@ big {
 @media (max-width:1260px) {
   .main-navigation ul li.menu-item-has-children:last-child ul {
     left:initial;
-    right: -10px;
+    right: -15px;
     text-align: right;
   }
 }
@@ -622,6 +622,44 @@ big {
   }
 }
 
+.main-small-navigation {
+  background: #3a231f;
+  position: absolute;
+  top:0;
+  height:60px;
+  width: 100%;
+}
+
+
+.main-small-navigation .menu-toggle {
+  color:#FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: 8px 0 8px 20px;
+  width: auto;
+}
+
+.main-small-navigation ul {
+  text-align: left;
+  list-style: none;
+  padding: 0 1rem 1rem;
+  background-color:#3a231f;
+}
+
+.main-small-navigation #menu-menu-1 {
+  position:relative;
+  top:-23px;
+  border-top:3px solid white;
+}
+
+.main-small-navigation a {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  padding: .75rem 0;
+}
 
 /*--------------------------------------------------------------
 # Supporting styles for basic WP functionality
