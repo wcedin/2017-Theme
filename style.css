@@ -892,7 +892,7 @@ hgroup h2.site-description {
 	padding: 0 1rem;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 769px) {
 	#primary {
 		float: left;
 		width: 70%;
@@ -906,7 +906,7 @@ hgroup h2.site-description {
 	padding: 0 1rem;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 769px) {
 	#secondary {
 		float: right;
 		width: 30%;
@@ -927,6 +927,13 @@ hgroup h2.site-description {
 
 #footer-widgets {
   overflow: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .footer-widgets-block {
+    width:33%;
+    float:left;
+  }
 }
 
 
