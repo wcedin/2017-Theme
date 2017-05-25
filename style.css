@@ -845,6 +845,15 @@ footer {
   padding-left: 30px;
 }
 
+#secondary a.sponsor-logo {
+    margin: 0 auto;
+    max-width: 240px;
+}
+
+#secondary h4.sponsor-level-title {
+    text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Header Hero
 --------------------------------------------------------------*/
