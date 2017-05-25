@@ -578,6 +578,8 @@ big {
   padding: .66667rem 1.125rem;
   position: absolute;
   top: 4em;
+  left: -1.125rem;
+  text-align: left;
   width: auto;
 }
 
