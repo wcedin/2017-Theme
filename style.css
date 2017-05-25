@@ -547,7 +547,7 @@ big {
   content: '';
   position: absolute;
   top: 50%;
-  right: 1.8963rem;
+  margin-left: 6px;
   margin-top: -2px;
   height: 0;
   width: 0;
@@ -558,10 +558,6 @@ big {
 
 .main-navigation ul > li.menu-item-has-children:last-child > a:after {
   margin-right:-30px;
-}
-
-.main-navigation ul li.menu-item-has-children:last-child ul {
-  right: 0;
 }
 
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
@@ -596,6 +592,36 @@ big {
   content: '';
   margin-right: 0;
 }
+
+@media (max-width:1260px) {
+  .main-navigation ul li.menu-item-has-children:last-child ul {
+    left:initial;
+    right: -10px;
+    text-align: right;
+  }
+}
+
+@media (max-width:1060px) {
+  .main-navigation ul > li a {
+    padding-right: 25px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:875px) {
+  .main-navigation ul > li a {
+    padding-right: 15px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:695px) {
+  .main-navigation ul > li a {
+    padding-right: 10px;
+    font-size: 0.7rem;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Supporting styles for basic WP functionality
