@@ -733,6 +733,9 @@ body {
   margin: 0;
 }
 
+footer {
+  clear: both;
+}
 
 #main {
   max-width:1200px;
@@ -811,6 +814,22 @@ hgroup h2.site-description {
 
 
 /*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.footer-widgets-block {
+  box-sizing: border-box;
+  width:33%;
+  float:left;
+  padding: 30px;
+}
+
+#footer-widgets {
+  overflow: auto;
+}
+
+
+/*--------------------------------------------------------------
 # Buttons
 --------------------------------------------------------------*/
 
@@ -858,4 +877,3 @@ hgroup h2.site-description {
     100%{background-position:0% 82%}
 }
 
-/*# sourceMappingURL=maps/style.css.map */
