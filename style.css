@@ -737,7 +737,8 @@ footer {
   clear: both;
 }
 
-#main {
+#main,
+#footer-widgets {
   max-width:1200px;
   margin-left: auto;
   margin-right: auto;
