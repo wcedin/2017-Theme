@@ -479,8 +479,9 @@ big {
   font-family: "Montserrat", sans-serif;
   font-size: 1.15rem;
   margin: 0 auto;
-  max-width: 920px;
-  padding: 0 1rem;
+  max-width: 1200px;
+  text-align: center;
+  padding: 0;
 }
 
 .main-navigation ul li.current-menu-item > a,
@@ -497,7 +498,7 @@ big {
 .main-navigation ul > li a {
   color: #FFFFFF;
   display: block;
-  padding: 1.6875rem .66667rem 1.6875rem 0;
+  padding: 1.6875rem 2.66667rem 1.6875rem 0;
   text-decoration: none;
   text-transform: uppercase;
   -moz-transition: color 300ms;
@@ -542,7 +543,7 @@ big {
   content: '';
   position: absolute;
   top: 50%;
-  right: .2963rem;
+  right: 1.8963rem;
   margin-top: -2px;
   height: 0;
   width: 0;
