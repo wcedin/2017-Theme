@@ -729,12 +729,19 @@ body {
 # Header Hero
 --------------------------------------------------------------*/
 
+#masthead {
+	margin-bottom: 1rem;
+}
+
 hgroup {
   margin-top: 80px;
   display: block;
   position: relative;
   background: url('/files/2017/05/wcedin2017-hero-flat.jpg') no-repeat center center;
   background-size: contain;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
+  box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   }
   hgroup:before {  
     display: block;
