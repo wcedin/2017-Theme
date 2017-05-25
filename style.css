@@ -882,3 +882,11 @@ input[type="submit"]:hover {
     100%{background-position:0% 82%}
 }
 
+/*--------------------------------------------------------------
+# Tickets
+--------------------------------------------------------------*/
+
+table.tix_tickets_table thead {
+  background: #d14616;
+	color: #fff;
+}
