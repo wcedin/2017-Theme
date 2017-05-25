@@ -606,4 +606,36 @@ body {
 .site-branding img {
   max-width: 100%; }
 
+/*--------------------------------------------------------------
+# Columns
+--------------------------------------------------------------*/
+
+#primary {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	#primary {
+		float: left;
+		width: 70%;
+	}
+}
+
+#secondary {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	#secondary {
+		float: right;
+		width: 30%;
+	}
+}
+
 /*# sourceMappingURL=maps/style.css.map */
