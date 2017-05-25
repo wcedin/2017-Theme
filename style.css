@@ -833,7 +833,8 @@ hgroup h2.site-description {
 # Buttons
 --------------------------------------------------------------*/
 
-.btn {
+.btn,
+input[type="submit"] {
   display: inline-block;
   margin: .5em 0;
   font-family: 'Montserrat', sans-serif;
@@ -842,10 +843,13 @@ hgroup h2.site-description {
   color: #fff !important;
   padding: 1rem 2rem;
   font-size: 1.2rem;
+  border: 0;
   border-radius: 5px;
 }
+.btn:focus,
 .btn:hover,
-.btn:focus {
+input[type="submit"]:focus,
+input[type="submit"]:hover {
   color: #fff;
   background: linear-gradient(124deg, #b12606, #d14616, #e3621c, #f8da2d, #a4c932, #33cc99, #19cbb8, #039bf5, #7400ff, #fb03fe );
   background-size: 1800% 1800%;
