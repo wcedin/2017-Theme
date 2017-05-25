@@ -497,6 +497,19 @@ big {
   color: #FFFFFF;
 }
 
+.main-navigation ul li.current-menu-item > a:before,
+.main-navigation ul li.current_page_item > a:before,
+.main-navigation ul li.current_page_ancestor > a:before,
+.main-navigation ul li.current-menu-parent > a:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    top: 30px;
+    position: relative;
+    background: linear-gradient(124deg, #b12606, #d14616, #e3621c, #f8da2d, #a4c932, #33cc99, #19cbb8, #039bf5, #7400ff, #fb03fe );
+}
+
 .main-navigation ul > li {
   display: inline-block;
 }
