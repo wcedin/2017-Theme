@@ -415,6 +415,7 @@ a:visited {
 
 a:hover, a:focus, a:active {
   color: #33cc99;
+  text-decoration: underline;
 }
 
   a:focus {
