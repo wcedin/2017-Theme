@@ -400,6 +400,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase; }
 
+#secondary h1,
+#footer-widgets h1 {
+  padding-top: 14px;
+  font-size: 1.5em;
+}
+
 p {
   margin-bottom: 1.5em; }
 
@@ -908,6 +914,7 @@ hgroup h2.site-description {
 
 @media screen and (min-width: 769px) {
 	#secondary {
+    border-left: 1px solid #eaeaea;
 		float: right;
 		width: 30%;
 	}
