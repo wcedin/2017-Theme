@@ -415,6 +415,7 @@ a:visited {
 
 a:hover, a:focus, a:active {
   color: #33cc99;
+  text-decoration: underline;
 }
 
   a:focus {
@@ -744,6 +745,13 @@ footer {
   margin-right: auto;
 }
 
+.site-info {
+ text-align: center;
+}
+
+.site-info a:nth-child(2) {
+  padding-left: 30px;
+}
 
 /*--------------------------------------------------------------
 # Header Hero
