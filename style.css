@@ -820,7 +820,7 @@ hgroup h2.site-description {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	background: #d14616;
-	color: #fff;
+	color: #fff !important;
 	padding: 1rem 1rem;
 	border-radius: 5px;
 }
