@@ -737,7 +737,8 @@ footer {
   clear: both;
 }
 
-#main {
+#main,
+#footer-widgets {
   max-width:1200px;
   margin-left: auto;
   margin-right: auto;
@@ -834,15 +835,14 @@ hgroup h2.site-description {
 --------------------------------------------------------------*/
 
 .btn {
-  display: inline-block;
-  margin: .5em 0;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  background: #d14616;
-  color: #fff !important;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  border-radius: 5px;
+	display: inline-block;
+	margin: 0.5em 0;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	background: #d14616;
+	color: #fff !important;
+	padding: 1rem 1rem;
+	border-radius: 5px;
 }
 .btn:hover,
 .btn:focus {
