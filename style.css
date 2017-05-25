@@ -749,7 +749,11 @@ footer {
 }
 
 .site-info {
- text-align: center;
+  text-align: center;
+  background-image: url('https://2017.edinburgh.wordcamp.org/files/2017/05/footer.png');
+  background-size: cover;
+  height:200px;
+  
 }
 
 .site-info a:nth-child(2) {
