@@ -744,6 +744,13 @@ footer {
   margin-right: auto;
 }
 
+.site-info {
+ text-align: center;
+}
+
+.site-info a:nth-child(2) {
+  padding-left: 30px;
+}
 
 /*--------------------------------------------------------------
 # Header Hero
