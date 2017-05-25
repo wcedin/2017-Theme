@@ -827,7 +827,7 @@ hgroup h2.site-description {
 .btn:hover,
 .btn:focus {
   color: #fff;
-  background: linear-gradient(124deg, #d14616, #e3621c, #f8da2d, #a4c932, #33cc99, #19cbb8, #039bf5, #7400ff, #fb03fe );
+  background: linear-gradient(124deg, #b12606, #d14616, #e3621c, #f8da2d, #a4c932, #33cc99, #19cbb8, #039bf5, #7400ff, #fb03fe );
   background-size: 1800% 1800%;
 
   -webkit-animation: rainbow 18s ease infinite;
