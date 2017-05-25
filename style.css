@@ -535,9 +535,9 @@ big {
   position: relative;
 }
 
-.main-navigation ul > li.menu-item-has-children > a {
+/* .main-navigation ul > li.menu-item-has-children > a {
   padding-right: 1rem;
-}
+} */
 
 .main-navigation ul > li.menu-item-has-children > a:after {
   content: '';
