@@ -1008,7 +1008,25 @@ input[type="submit"]:hover {
 # Tickets
 --------------------------------------------------------------*/
 
+table.tix_tickets_table {
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+table.tix_tickets_table td {
+    padding: 10px 20px;
+    border: 1px solid #eaeaea;
+}
+
 table.tix_tickets_table thead {
   background: #d14616;
 	color: #fff;
+}
+
+table.tix_tickets_table.tix-order-summary {
+  width: 100%;
+}
+
+table.tix_tickets_table.tix-attendee-form td {
+    padding-bottom: 20px;
 }
