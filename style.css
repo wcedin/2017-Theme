@@ -1029,4 +1029,5 @@ table.tix_tickets_table.tix-order-summary {
 
 table.tix_tickets_table.tix-attendee-form td {
     padding-bottom: 20px;
+    border: none;
 }
