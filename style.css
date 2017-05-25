@@ -404,11 +404,19 @@ p {
   margin-bottom: 1.5em; }
 
 a {
-  color: royalblue; }
-  a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
+  color: #039cf5;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:visited {
+  color: #7200fe;
+}
+
+a:hover, a:focus, a:active {
+  color: #33cc99;
+}
+
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -702,17 +710,20 @@ object {
 .vertical-align {
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+}
 
 body {
-  margin: 0; }
+  margin: 0;
+}
 
-#masthead {
-  margin-top: 20px;
-  margin-bottom: 20px; }
 
-.site-branding img {
-  max-width: 100%; }
+#main {
+  max-width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Columns
