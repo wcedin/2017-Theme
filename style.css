@@ -1001,16 +1001,25 @@ body.logged-in .star img {
 body.logged-in .star.big {
 	height: 11%;
 	width: 4.3%;
+	-ms-transform: rotate(55deg); /* IE 9 */
+	-webkit-transform: rotate(55deg); /* Safari */
+	transform: rotate(55deg);
 }
 
 body.logged-in .star.medium {
 	height: 8%;
 	width: 3.1%;
+	-ms-transform: rotate(25deg); /* IE 9 */
+	-webkit-transform: rotate(25deg); /* Safari */
+	transform: rotate(25deg);
 }
 
 body.logged-in .star.small {
 	height: 6%;
 	width: 2.35%;
+	-ms-transform: rotate(18deg); /* IE 9 */
+	-webkit-transform: rotate(18deg); /* Safari */
+	transform: rotate(18deg);
 	
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
@@ -1025,82 +1034,58 @@ body.logged-in .star.small {
 body.logged-in #star1 {
 	top: 69%;
 	left: 38%;
-	-ms-transform: rotate(20deg); /* IE 9 */
-	-webkit-transform: rotate(20deg); /* Safari */
-	transform: rotate(20deg);
 }
 body.logged-in #star2 {
 	top: 47%;
 	left: 58.5%;
-	-ms-transform: rotate(55deg); /* IE 9 */
-	-webkit-transform: rotate(55deg); /* Safari */
-	transform: rotate(55deg);
 }
 body.logged-in #star3 {
 	top: 47.5%;
 	left: 38.2%;
-    -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari */
-    transform: rotate(20deg);
 }
 body.logged-in #star4 {
 	top: 57.9%;
 	left: 54.7%;
-    -ms-transform: rotate(22deg); /* IE 9 */
-    -webkit-transform: rotate(22deg); /* Safari */
-    transform: rotate(22deg);
 }
 body.logged-in #star5 {
 	top: 58.3%;
 	left: 35.5%;
-	-ms-transform: rotate(22deg); /* IE 9 */
-	-webkit-transform: rotate(22deg); /* Safari */
-	transform: rotate(22deg);
 }
 body.logged-in #star6 {
 	top: 73.5%;
 	left: 57%;
-	-ms-transform: rotate(25deg); /* IE 9 */
-	-webkit-transform: rotate(25deg); /* Safari */
-	transform: rotate(25deg);
 }
 body.logged-in #star7 {
 	top: 35%;
 	left: 57.9%;
-	-ms-transform: rotate(18deg); /* IE 9 */
-	-webkit-transform: rotate(18deg); /* Safari */
-	transform: rotate(18deg);
 }
 body.logged-in #star8 {
 	top: 61%;
 	left: 40.7%;
-	-ms-transform: rotate(18deg); /* IE 9 */
-	-webkit-transform: rotate(18deg); /* Safari */
-	transform: rotate(18deg);
 }
 
 
 @keyframes tossing {
 	0% {
-		transform: rotate(-4deg);	
+		transform: rotate(18deg);	
 	}
 	50% {
-		transform: rotate(4deg);
+		transform: rotate(28deg);
 	}
 	100% {
-		transform: rotate(-4deg);	
+		transform: rotate(18deg);	
 	}						
 }
 
 @-webkit-keyframes tossing {
 	0% {
-		-webkit-transform: rotate(-4deg);	
+		-webkit-transform: rotate(18deg);	
 	}
 	50% {
-		-webkit-transform: rotate(4deg);
+		-webkit-transform: rotate(28deg);
 	}
 	100% {
-		-webkit-transform: rotate(-4deg);	
+		-webkit-transform: rotate(18deg);	
 	}				
 }
 
