@@ -1024,8 +1024,8 @@ body.logged-in .star.small {
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
 
-	animation-duration: 2.5s;	
-	-webkit-animation-duration: 2.5s;
+	animation-duration: 25s;	
+	-webkit-animation-duration: 25s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
@@ -1070,7 +1070,7 @@ body.logged-in #star8 {
 		transform: rotate(18deg);	
 	}
 	50% {
-		transform: rotate(28deg);
+		transform: rotate(180deg);
 	}
 	100% {
 		transform: rotate(18deg);	
@@ -1082,7 +1082,7 @@ body.logged-in #star8 {
 		-webkit-transform: rotate(18deg);	
 	}
 	50% {
-		-webkit-transform: rotate(28deg);
+		-webkit-transform: rotate(180deg);
 	}
 	100% {
 		-webkit-transform: rotate(18deg);	
