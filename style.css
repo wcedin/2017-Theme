@@ -966,18 +966,14 @@ body.logged-in #hero-unicorn img {
 
 @-webkit-keyframes Floatingx {
     from {-webkit-transform:translate(0, 0px);}
-    35% {-webkit-transform:translate(0, -5px);}
-    to {-webkit-transform: translate(0, -0px);}  
-    30% {-webkit-transform:translate(0, 5px);} 
-    to {-webkit-transform: translate(0, 0px);} 
+    65% {-webkit-transform:translate(0, -5px);}
+    to {-webkit-transform: translate(0, -0px);}
 }
     
 @-moz-keyframes Floating {
     from {-moz-transform:translate(0, 0px);}
-    35% {-moz-transform:translate(0, -5px);}
+    65% {-moz-transform:translate(0, -5px);}
     to {-moz-transform: translate(0, -0px);} 
-    30% {-moz-transform:translate(0, 5px);}
-    to {-moz-transform: translate(0, 0px);}    
 }
 
 
