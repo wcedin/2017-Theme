@@ -918,7 +918,7 @@ body.logged-in #homepage-hero {
   margin-top: 79px;
   display: block;
   position: relative;
-  background: url('https://2017.edinburgh.wordcamp.org/files/2017/05/hero.jpg') no-repeat center center;
+  background: url('/files/2017/05/hero-flat.jpg') no-repeat center center;
   background-size: contain;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
