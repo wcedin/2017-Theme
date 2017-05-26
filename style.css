@@ -989,6 +989,35 @@ body.logged-in #hero-unicorn img {
 }
 
 
+body.logged-in .star {
+	position: absolute;
+}
+body.logged-in .star img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+body.logged-in .star.medium {
+	height: 8%;
+	width: 3%;
+}
+body.logged-in #star3 {
+	position: absolute;
+	top: 47.5%;
+	left: 38.2%;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+}
+body.logged-in #star4 {
+	position: absolute;
+	top: 57.9%;
+	left: 54.7%;
+    -ms-transform: rotate(22deg); /* IE 9 */
+    -webkit-transform: rotate(22deg); /* Safari */
+    transform: rotate(22deg);
+}
+
 
 
 /*--------------------------------------------------------------
