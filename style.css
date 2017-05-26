@@ -1011,6 +1011,15 @@ body.logged-in .star.medium {
 body.logged-in .star.small {
 	height: 6%;
 	width: 2.35%;
+	
+	animation-name: tossing;
+	-webkit-animation-name: tossing;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
 body.logged-in #star1 {
@@ -1070,6 +1079,30 @@ body.logged-in #star8 {
 	transform: rotate(18deg);
 }
 
+
+@keyframes tossing {
+	0% {
+		transform: rotate(-4deg);	
+	}
+	50% {
+		transform: rotate(4deg);
+	}
+	100% {
+		transform: rotate(-4deg);	
+	}						
+}
+
+@-webkit-keyframes tossing {
+	0% {
+		-webkit-transform: rotate(-4deg);	
+	}
+	50% {
+		-webkit-transform: rotate(4deg);
+	}
+	100% {
+		-webkit-transform: rotate(-4deg);	
+	}				
+}
 
 /*--------------------------------------------------------------
 # Columns
