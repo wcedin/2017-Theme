@@ -940,6 +940,15 @@ body.logged-in #homepage-hero > .content {
   text-indent: -9999em;
 }
 
+body.logged-in #hero-unicorn {
+	position: absolute;
+	top: 19%;
+	left: 43%;
+	height: 54%;
+	width: 14.1%;
+	background: rgba(255,155,155,0.5);
+}
+
 
 
 
