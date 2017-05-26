@@ -479,6 +479,7 @@ big {
   right: 0;
   height: 80px;
   background-color:#392420;
+  z-index: 999;
 }
 
 .main-navigation ul {
@@ -911,9 +912,6 @@ hgroup h2.site-description {
 }
 
 
-#homepage-hero {
-	display: none;
-}
 
 #homepage-hero {
   margin-top: 79px;
@@ -924,6 +922,7 @@ hgroup h2.site-description {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
+  margin-bottom: 1em;
   }
   #homepage-hero:before {  
     display: block;
