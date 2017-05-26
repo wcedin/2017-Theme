@@ -877,7 +877,8 @@ footer {
 
 hgroup {
   margin-top: 79px;
-  display: block;
+  /*display: block;*/
+  display: none;
   position: relative;
   background: url('https://2017.edinburgh.wordcamp.org/files/2017/05/hero.jpg') no-repeat center center;
   background-size: contain;
@@ -914,7 +915,7 @@ hgroup h2.site-description {
 	display: none;
 }
 
-body.logged-in #homepage-hero {
+#homepage-hero {
   margin-top: 79px;
   display: block;
   position: relative;
@@ -924,14 +925,14 @@ body.logged-in #homepage-hero {
   -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   }
-  body.logged-in #homepage-hero:before {  
+  #homepage-hero:before {  
     display: block;
     content: "";
     width: 100%;
     padding-top: 39%;
   }
 
-body.logged-in #homepage-hero > .content {
+#homepage-hero > .content {
   position: absolute;
   top: 0;
   left: 0;
@@ -940,7 +941,7 @@ body.logged-in #homepage-hero > .content {
   text-indent: -9999em;
 }
 
-body.logged-in #hero-unicorn {
+#hero-unicorn {
 	position: absolute;
 	top: 19%;
 	left: 43%;
@@ -958,7 +959,7 @@ body.logged-in #hero-unicorn {
 	-webkit-animation-iteration-count: infinite;
 }
 
-body.logged-in #hero-unicorn img {
+#hero-unicorn img {
 	display: block;
 	width: 100%;
 	height: 100%;	
@@ -989,16 +990,16 @@ body.logged-in #hero-unicorn img {
 }
 
 
-body.logged-in .star {
+#homepage-hero .star {
 	position: absolute;
 }
-body.logged-in .star img {
+#homepage-hero .star img {
 	display: block;
 	width: 100%;
 	height: 100%;
 }
 
-body.logged-in .star.big {
+#homepage-hero .star.big {
 	height: 11%;
 	width: 4.3%;
 	-ms-transform: rotate(55deg); /* IE 9 */
@@ -1006,7 +1007,7 @@ body.logged-in .star.big {
 	transform: rotate(55deg);
 }
 
-body.logged-in .star.medium {
+#homepage-hero .star.medium {
 	height: 8%;
 	width: 3.1%;
 	-ms-transform: rotate(25deg); /* IE 9 */
@@ -1014,7 +1015,7 @@ body.logged-in .star.medium {
 	transform: rotate(25deg);
 }
 
-body.logged-in .star.small {
+#homepage-hero .star.small {
 	height: 6%;
 	width: 2.35%;
 	-ms-transform: rotate(18deg); /* IE 9 */
@@ -1031,35 +1032,35 @@ body.logged-in .star.small {
 	-webkit-animation-iteration-count: infinite;
 }
 
-body.logged-in #star1 {
+#homepage-hero #star1 {
 	top: 69%;
 	left: 38%;
 }
-body.logged-in #star2 {
+#homepage-hero #star2 {
 	top: 47%;
 	left: 58.5%;
 }
-body.logged-in #star3 {
+#homepage-hero #star3 {
 	top: 47.5%;
 	left: 38.2%;
 }
-body.logged-in #star4 {
+#homepage-hero #star4 {
 	top: 57.9%;
 	left: 54.7%;
 }
-body.logged-in #star5 {
+#homepage-hero #star5 {
 	top: 58.3%;
 	left: 35.5%;
 }
-body.logged-in #star6 {
+#homepage-hero #star6 {
 	top: 73.5%;
 	left: 57%;
 }
-body.logged-in #star7 {
+#homepage-hero #star7 {
 	top: 35%;
 	left: 57.9%;
 }
-body.logged-in #star8 {
+#homepage-hero #star8 {
 	top: 61%;
 	left: 40.7%;
 }
