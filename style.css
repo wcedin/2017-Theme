@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+h/*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
 /*! normalize.css m v6.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -923,6 +923,7 @@ hgroup h2.site-description {
   -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   margin-bottom: 1em;
+  z-index: -1;
   }
   #homepage-hero:before {  
     display: block;
