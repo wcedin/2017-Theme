@@ -650,7 +650,6 @@ big {
   width: 100%;
 }
 
-
 .main-small-navigation .menu-toggle {
   color:#FFFFFF;
   cursor: pointer;
@@ -658,6 +657,10 @@ big {
   font-size: 1.125rem;
   padding: 8px 0 8px 20px;
   width: auto;
+}
+
+.main-small-navigation .menu {
+	display: none;
 }
 
 .main-small-navigation ul {
