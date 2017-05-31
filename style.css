@@ -928,6 +928,15 @@ hgroup h2.site-description {
   margin-bottom: 1em;
   z-index: -1;
   }
+
+@media (max-width: 616px) {
+
+  #homepage-hero {
+    margin-top: 60px;
+  }
+
+}
+
   #homepage-hero:before {  
     display: block;
     content: "";
