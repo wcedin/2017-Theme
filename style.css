@@ -948,10 +948,10 @@ hgroup h2.site-description {
 
 #hero-unicorn {
 	position: absolute;
-	top: 19%;
-	left: 43%;
-	height: 54%;
-	width: 14.1%;
+	top: 5%;
+	left: 35%;
+	height: 90%;
+	width: 30%;
 	/*background: rgba(255,155,155,0.5);*/
 	
 	animation-name: floating;
@@ -1005,24 +1005,24 @@ hgroup h2.site-description {
 }
 
 #homepage-hero .star.big {
-	height: 11%;
-	width: 4.3%;
+	height: 16%;
+	width: 8%;
 	-ms-transform: rotate(55deg); /* IE 9 */
 	-webkit-transform: rotate(55deg); /* Safari */
 	transform: rotate(55deg);
 }
 
 #homepage-hero .star.medium {
-	height: 8%;
-	width: 3.1%;
+	height: 12%;
+	width: 6%;
 	-ms-transform: rotate(25deg); /* IE 9 */
 	-webkit-transform: rotate(25deg); /* Safari */
 	transform: rotate(25deg);
 }
 
 #homepage-hero .star.small {
-	height: 6%;
-	width: 2.35%;
+	height: 8%;
+	width: 4%;
 	-ms-transform: rotate(18deg); /* IE 9 */
 	-webkit-transform: rotate(18deg); /* Safari */
 	transform: rotate(18deg);
@@ -1038,36 +1038,36 @@ hgroup h2.site-description {
 }
 
 #homepage-hero #star1 {
-	top: 69%;
-	left: 38%;
+	top: 80%;
+	left: 28%;
 }
 #homepage-hero #star2 {
-	top: 47%;
-	left: 58.5%;
+	top: 45%;
+	left: 68.5%;
 }
 #homepage-hero #star3 {
-	top: 47.5%;
-	left: 38.2%;
+	top: 40%;
+	left: 26%;
 }
 #homepage-hero #star4 {
-	top: 57.9%;
-	left: 54.7%;
+	top: 60%;
+	left: 61%;
 }
 #homepage-hero #star5 {
-	top: 58.3%;
-	left: 35.5%;
+	top: 62%;
+	left: 23%;
 }
 #homepage-hero #star6 {
-	top: 73.5%;
-	left: 57%;
+	top: 85%;
+	left: 66%;
 }
 #homepage-hero #star7 {
-	top: 35%;
-	left: 57.9%;
+	top: 27%;
+	left: 67%;
 }
 #homepage-hero #star8 {
-	top: 61%;
-	left: 40.7%;
+	top: 67%;
+	left: 31.5%;
 }
 
 
@@ -1117,12 +1117,10 @@ hgroup h2.site-description {
 	}
 
 	#hero-unicorn {
-		position: absolute;
 		top: 19%;
 		left: 43%;
 		height: 54%;
 		width: 14.1%;
-	/*background: rgba(255,155,155,0.5);*/
 		animation-name: floating;
 		-webkit-animation-name: floating;
 		animation-duration: 3s;
