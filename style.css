@@ -1239,27 +1239,115 @@ input[type="submit"]:hover {
 /*--------------------------------------------------------------
 # Tickets
 --------------------------------------------------------------*/
-
 table.tix_tickets_table {
-    font-size: 14px;
-    border-collapse: collapse;
+ font-family: 'Merriweather', serif;
+ line-height: 1.6;
+ border: 1px solid #eccd94;
+ border-collapse: collapse;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ table-layout: fixed;
+ color: #3a231f;
+ font-weight: 300;
+ -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+ -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+ box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+	font-style: inherit;
 }
 
+table.tix_tickets_table tr {
+ background: #fbface;
+ border: 1px solid #eccd94;
+ padding: .35em;
+}
+
+table.tix_tickets_table th,
 table.tix_tickets_table td {
-    padding: 10px 20px;
-    border: 1px solid #eaeaea;
+ padding: 2em;
+ text-align: center;
 }
 
-table.tix_tickets_table thead {
-  background: #d14616;
-	color: #fff;
+table.tix_tickets_table th {
+ line-height: .5;
+ letter-spacing: .125em;
+ text-transform: uppercase;
 }
 
-table.tix_tickets_table.tix-order-summary {
-  width: 100%;
+.tix_tickets_table .tix-column-description {
+ text-align: left;
+ width: 50%;
 }
 
-table.tix_tickets_table.tix-attendee-form td {
-    padding-bottom: 20px;
-    border: none;
+.tix_tickets_table th {
+ background: #d14616;
+ color: #fff;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
+}
+
+.tix_tickets_table .tix-ticket-title {
+ font-size: 1.5em;
+ line-height: 1;
+ text-transform: uppercase;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
+	font-style: inherit;
+}
+
+@media screen and (max-width: 600px) {
+ table.tix_tickets_table {
+  border: 0;
+  box-shadow: none;
+ }
+ table.tix_tickets_table caption {
+  font-size: 1.3em;
+ }
+ table.tix_tickets_table thead {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 0;
+ }
+ table.tix_tickets_table tr {
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 2em;
+ }
+ table.tix_tickets_table td {
+  border-bottom: 3px solid #e5e4b7;
+  display: block;
+  font-size: .8em;
+  text-align: left;
+ }
+
+ .tix_tickets_table .tix-column-description {
+  width: auto;
+ }
+ table.tix_tickets_table td:nth-child(2),
+ table.tix_tickets_table td:nth-child(3),
+ table.tix_tickets_table td:nth-child(4) {
+  text-align: right;
+ }
+ table.tix_tickets_table td:nth-child(2):before {
+  content: 'Price: ';
+  float: left;
+  margin-right: 4px;
+  font-weight: 900;
+ }
+ table.tix_tickets_table td:nth-child(3):before {
+  content: 'Remaining Tickets: ';
+  float: left;
+  margin-right: 4px;
+  font-weight: 900;
+ }
+ table.tix_tickets_table td:last-child {
+  border-bottom: 0;
+ }
 }
