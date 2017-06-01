@@ -879,6 +879,17 @@ footer {
 	margin-bottom: 1rem;
 }
 
+hgroup h2.site-description {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  hgroup {
+    margin-top: 59px;
+  }
+}
+
+
 
 #homepage-hero {
   margin-top: 79px;
