@@ -920,11 +920,6 @@ hgroup h2.site-description {
   margin-top: 79px;
   display: block;
   position: relative;
-  background: url('/files/2017/05/hero-flat.jpg') no-repeat center center;
-  background-size: contain;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
-  box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
   margin-bottom: 1em;
   z-index: -1;
   }
@@ -937,13 +932,12 @@ hgroup h2.site-description {
 
 }
 
-  #homepage-hero:before {  
+#homepage-hero:before {  
     display: block;
     content: "";
     width: 100%;
     padding-top: 39%;
-  }
-
+}
 #homepage-hero > .content {
   position: absolute;
   top: 0;
@@ -1105,6 +1099,104 @@ hgroup h2.site-description {
 
 #inside-hero {
 	margin-top: 60px;
+}
+
+
+@media (min-width: 617px) {
+	
+	#homepage-hero:before {
+		padding-top: 39%;
+	}
+
+	#hero-unicorn {
+		top: 19%;
+		left: 43%;
+		height: 54%;
+		width: 14.1%;
+		animation-name: floating;
+		-webkit-animation-name: floating;
+		animation-duration: 3s;
+		-webkit-animation-duration: 3s;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+	}
+
+	#homepage-hero .star.big {
+		height: 11%;
+		width: 4.3%;
+		-ms-transform: rotate(55deg);
+	/* IE 9 */
+		-webkit-transform: rotate(55deg);
+	/* Safari */
+		transform: rotate(55deg);
+	}
+
+	#homepage-hero .star.medium {
+		height: 8%;
+		width: 3.1%;
+		-ms-transform: rotate(25deg);
+	/* IE 9 */
+		-webkit-transform: rotate(25deg);
+	/* Safari */
+		transform: rotate(25deg);
+	}
+
+	#homepage-hero .star.small {
+		height: 6%;
+		width: 2.35%;
+		-ms-transform: rotate(18deg);
+	/* IE 9 */
+		-webkit-transform: rotate(18deg);
+	/* Safari */
+		transform: rotate(18deg);
+		animation-name: tossing;
+		-webkit-animation-name: tossing;
+		animation-duration: 25s;
+		-webkit-animation-duration: 25s;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+	}
+
+	#homepage-hero #star1 {
+		top: 69%;
+		left: 38%;
+	}
+
+	#homepage-hero #star2 {
+		top: 47%;
+		left: 58.5%;
+	}
+
+	#homepage-hero #star3 {
+		top: 47.5%;
+		left: 38.2%;
+	}
+
+	#homepage-hero #star4 {
+		top: 57.9%;
+		left: 54.7%;
+	}
+
+	#homepage-hero #star5 {
+		top: 58.3%;
+		left: 35.5%;
+	}
+
+	#homepage-hero #star6 {
+		top: 73.5%;
+		left: 57%;
+	}
+
+	#homepage-hero #star7 {
+		top: 35%;
+		left: 57.9%;
+	}
+
+	#homepage-hero #star8 {
+		top: 61%;
+		left: 40.7%;
+	}
+	
 }
 
 /*--------------------------------------------------------------
