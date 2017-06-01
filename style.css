@@ -683,6 +683,9 @@ big {
 	background: #d14616;
 	text-align: center;
 	padding: 1rem 0 0.5rem 0;
+	-webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
 }
 
 .main-small-navigation a {
