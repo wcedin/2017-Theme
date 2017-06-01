@@ -671,9 +671,10 @@ big {
 }
 
 .main-small-navigation #menu-menu-1 {
-  position:relative;
-  top:-23px;
-  border-top:3px solid white;
+	position: relative;
+	top: -23px;
+	background: #d14616;
+	text-align: center;
 }
 
 .main-small-navigation a {
