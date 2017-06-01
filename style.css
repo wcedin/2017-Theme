@@ -651,16 +651,21 @@ big {
 }
 
 .main-small-navigation .menu-toggle {
-  color:#FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.125rem;
-  padding: 8px 0 8px 20px;
-  width: auto;
+	color: #FFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.35rem;
+	padding-right: 20px;
+	width: auto;
+	float: right;
+}
+.main-small-navigation .menu-toggle.toggled-on {
+	color: #b37a14;
 }
 
 .main-small-navigation .menu {
 	display: none;
+	margin-top: 83px;
 }
 
 .main-small-navigation ul {
