@@ -398,7 +398,9 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.75rem;
+}
 
 #secondary h1,
 #footer-widgets h1 {
@@ -655,7 +657,7 @@ big {
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.35rem;
-	padding-right: 20px;
+	padding: 2px 20px;
 	width: auto;
 	float: right;
 }
