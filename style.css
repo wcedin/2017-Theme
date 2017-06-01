@@ -667,6 +667,8 @@ big {
 	text-align: center;
 	list-style: none;
 	padding: 0 1rem;
+}
+.main-small-navigation > div > ul > .menu-item {
 	margin-bottom: 1rem;
 }
 
@@ -683,7 +685,7 @@ big {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
 	display: block;
-	padding: .5rem 0;
+	padding: .3rem 0;
 }
 .main-small-navigation ul.sub-menu a {
 	font-family: 'Merriweather', serif !important;
