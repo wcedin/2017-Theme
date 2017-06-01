@@ -975,7 +975,7 @@ hgroup h2.site-description {
 		transform: translateY(0%);	
 	}
 	60% {
-		transform: translateY(-1%);	
+		transform: translateY(-2%);	
 	}	
 	100% {
 		transform: translateY(0%);
@@ -987,7 +987,7 @@ hgroup h2.site-description {
 		-webkit-transform: translateY(0%);	
 	}
 	60% {
-		-webkit-transform: translateY(-1%);	
+		-webkit-transform: translateY(-2%);	
 	}	
 	100% {
 		-webkit-transform: translateY(0%);
