@@ -920,6 +920,8 @@ hgroup h2.site-description {
   margin-top: 79px;
   display: block;
   position: relative;
+  background: url('//2017.edinburgh.wordcamp.org/files/2017/06/bg-mobile-hero.png') no-repeat top left;
+  background-size: cover;
   z-index: -1;
 }
 
@@ -935,7 +937,7 @@ hgroup h2.site-description {
     display: block;
     content: "";
     width: 100%;
-    padding-top: 50%;
+    padding-top: 100%;
 }
 #homepage-hero > .content {
   position: absolute;
@@ -948,11 +950,10 @@ hgroup h2.site-description {
 
 #hero-unicorn {
 	position: absolute;
-	top: 5%;
+	top: 2.5%;
 	left: 35%;
-	height: 90%;
+	height: 45%;
 	width: 30%;
-	/*background: rgba(255,155,155,0.5);*/
 	
 	animation-name: floating;
 	-webkit-animation-name: floating;
@@ -1005,7 +1006,7 @@ hgroup h2.site-description {
 }
 
 #homepage-hero .star.big {
-	height: 16%;
+	height: 8%;
 	width: 8%;
 	-ms-transform: rotate(55deg); /* IE 9 */
 	-webkit-transform: rotate(55deg); /* Safari */
@@ -1013,7 +1014,7 @@ hgroup h2.site-description {
 }
 
 #homepage-hero .star.medium {
-	height: 12%;
+	height: 6%;
 	width: 6%;
 	-ms-transform: rotate(25deg); /* IE 9 */
 	-webkit-transform: rotate(25deg); /* Safari */
@@ -1021,7 +1022,7 @@ hgroup h2.site-description {
 }
 
 #homepage-hero .star.small {
-	height: 8%;
+	height: 4%;
 	width: 4%;
 	-ms-transform: rotate(18deg); /* IE 9 */
 	-webkit-transform: rotate(18deg); /* Safari */
@@ -1038,35 +1039,35 @@ hgroup h2.site-description {
 }
 
 #homepage-hero #star1 {
-	top: 80%;
+	top: 39%;
 	left: 28%;
 }
 #homepage-hero #star2 {
-	top: 45%;
+	top: 22.5%;
 	left: 68.5%;
 }
 #homepage-hero #star3 {
-	top: 40%;
+	top: 20%;
 	left: 26%;
 }
 #homepage-hero #star4 {
-	top: 60%;
+	top: 32%;
 	left: 61%;
 }
 #homepage-hero #star5 {
-	top: 62%;
+	top: 31%;
 	left: 23%;
 }
 #homepage-hero #star6 {
-	top: 85%;
+	top: 40%;
 	left: 66%;
 }
 #homepage-hero #star7 {
-	top: 27%;
+	top: 13%;
 	left: 67%;
 }
 #homepage-hero #star8 {
-	top: 67%;
+	top: 33%;
 	left: 31.5%;
 }
 
