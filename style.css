@@ -664,10 +664,10 @@ big {
 }
 
 .main-small-navigation ul {
-  text-align: left;
-  list-style: none;
-  padding: 0 1rem 1rem;
-  background-color:#3a231f;
+	text-align: center;
+	list-style: none;
+	padding: 0 1rem;
+	margin-bottom: 1rem;
 }
 
 .main-small-navigation #menu-menu-1 {
@@ -675,14 +675,20 @@ big {
 	top: -23px;
 	background: #d14616;
 	text-align: center;
+	padding: 1rem 0 0.5rem 0;
 }
 
 .main-small-navigation a {
-  color: #FFF;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  display: block;
-  padding: .75rem 0;
+	color: #FFF;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	display: block;
+	padding: .5rem 0;
+}
+.main-small-navigation ul.sub-menu a {
+	font-family: 'Merriweather', serif !important;
+	text-transform: initial;
+	font-weight: normal;
 }
 
 /*--------------------------------------------------------------
