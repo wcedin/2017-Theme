@@ -879,6 +879,31 @@ footer {
 	margin-bottom: 1rem;
 }
 
+hgroup {
+  margin-top: 79px;
+  /*display: block;*/
+  display: none;
+  position: relative;
+  background: url('https://2017.edinburgh.wordcamp.org/files/2017/05/hero.jpg') no-repeat center center;
+  background-size: contain;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
+  box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
+  }
+  hgroup:before {  
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 39%;
+  }
+hgroup h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-indent: -9999em;
+}
 hgroup h2.site-description {
   display: none;
 }
