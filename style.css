@@ -1455,12 +1455,14 @@ table.tix_tickets_table th {
  table.tix_tickets_table td:nth-child(4) {
   text-align: right;
  }
+ @media (min-width: 601px) {
  table.tix_tickets_table td:nth-child(2):before {
   content: 'Price: ';
   float: left;
   margin-right: 4px;
   font-weight: 900;
  }
+}
  table.tix_tickets_table td:nth-child(3):before {
   content: 'Remaining Tickets: ';
   float: left;
