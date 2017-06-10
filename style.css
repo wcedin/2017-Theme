@@ -933,13 +933,10 @@ hgroup h2.site-description {
 	hgroup .site-title {
 		width: 1.5em;
 		height: 1.5em;
-		background: url('//2017.edinburgh.wordcamp.org/files/2017/06/wordcamp-star.png') no-repeat top left;
+		background: url('//2017.edinburgh.wordcamp.org/files/2017/06/wordcamp-star-small.png') no-repeat top left;
 		background-size: contain;
 		text-indent: -9999em;
 		margin: 0;
-	    -ms-transform: rotate(12deg); /* IE 9 */
-    	-webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
-    	transform: rotate(12deg);
 	}
 	
 }
