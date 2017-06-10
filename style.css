@@ -664,6 +664,20 @@ big {
 .main-small-navigation .menu-toggle.toggled-on {
 	color: #b37a14;
 }
+.main-small-navigation .menu-toggle:before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	margin-right: 5px;
+	background: url('http://2017.edinburgh.wordcamp.org/files/2017/06/icon-menu.png');
+	background-position: top left;
+	background-size: 40px 16px;
+}
+.main-small-navigation .menu-toggle.toggled-on:before {
+	background-position: top right;
+	background-size: 40px 16px;
+}
 
 .main-small-navigation .menu {
 	display: none;
