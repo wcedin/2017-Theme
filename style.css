@@ -670,7 +670,7 @@ big {
 	width: 20px;
 	height: 16px;
 	margin-right: 5px;
-	background: url('http://2017.edinburgh.wordcamp.org/files/2017/06/icon-menu.png');
+	background: url('//2017.edinburgh.wordcamp.org/files/2017/06/icon-menu.png');
 	background-position: top left;
 	background-size: 40px 16px;
 }
@@ -921,10 +921,27 @@ hgroup h2.site-description {
   display: none;
 }
 
-@media (max-width: 599px) {
-  hgroup {
-    margin-top: 59px;
-  }
+@media (max-width: 616px) {
+	
+	hgroup {
+		display: block;
+		position: absolute;
+		top: -4.5em;
+		left: 0.8em;
+		z-index: 10;
+	}
+	hgroup .site-title {
+		width: 1.5em;
+		height: 1.5em;
+		background: url('//2017.edinburgh.wordcamp.org/files/2017/06/wordcamp-star.png') no-repeat top left;
+		background-size: contain;
+		text-indent: -9999em;
+		margin: 0;
+	    -ms-transform: rotate(12deg); /* IE 9 */
+    	-webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
+    	transform: rotate(12deg);
+	}
+	
 }
 
 
