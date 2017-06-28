@@ -1000,7 +1000,14 @@ hgroup h2.site-description {
 #hero-unicorn img {
 	display: block;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
+	
+	animation-name: tipping;
+	-webkit-animation-name: tipping;
+	animation-duration: 7.5s;
+	-webkit-animation-duration: 7.5s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
 @keyframes floating {
@@ -1025,6 +1032,34 @@ hgroup h2.site-description {
 	100% {
 		-webkit-transform: translateY(0%);
 	}			
+}
+
+@keyframes tipping {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	60% {
+		transform: rotate(3deg);
+	}
+	
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes tipping {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	
+	60% {
+		-webkit-transform: rotate(3deg);
+	}
+	
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
 }
 
 
