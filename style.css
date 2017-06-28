@@ -1086,6 +1086,13 @@ hgroup h2.site-description {
 	-ms-transform: rotate(25deg); /* IE 9 */
 	-webkit-transform: rotate(25deg); /* Safari */
 	transform: rotate(25deg);
+	
+	animation-name: tipping;
+	-webkit-animation-name: tipping;
+	animation-duration: 4s;
+	-webkit-animation-duration: 4s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
 #homepage-hero .star.small {
