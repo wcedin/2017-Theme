@@ -1308,11 +1308,16 @@ hgroup h2.site-description {
 --------------------------------------------------------------*/
 
 input[type="text"],
-input[type="email"]{
+input[type="email"],
+textarea {
 	background: #ebebeb;
 	border: none;
 	border-left: 4px solid #b17c19;
 	padding: 0.25rem 0.5rem;
+}
+textarea {
+	max-width: 100%;
+	max-width: calc(100% - 1.2rem);
 }
 
 
