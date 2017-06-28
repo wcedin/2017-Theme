@@ -1407,7 +1407,7 @@ table.tix_tickets_table td {
 }
 
 table.tix_tickets_table th {
- line-height: .5;
+ line-height: .8;
  letter-spacing: .125em;
  text-transform: uppercase;
 }
