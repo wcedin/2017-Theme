@@ -1207,21 +1207,21 @@ hgroup h2.site-description {
 	#homepage-hero .star.big {
 		height: 11%;
 		width: 4.3%;
-		-ms-transform: rotate(55deg);
+		-ms-transform: rotate(155deg);
 	/* IE 9 */
-		-webkit-transform: rotate(55deg);
+		-webkit-transform: rotate(155deg);
 	/* Safari */
-		transform: rotate(55deg);
+		transform: rotate(155deg);
 	}
 
 	#homepage-hero .star.medium {
 		height: 8%;
 		width: 3.1%;
-		-ms-transform: rotate(25deg);
+		-ms-transform: rotate(125deg);
 	/* IE 9 */
-		-webkit-transform: rotate(25deg);
+		-webkit-transform: rotate(125deg);
 	/* Safari */
-		transform: rotate(25deg);
+		transform: rotate(125deg);
 	}
 
 	#homepage-hero .star.small {
