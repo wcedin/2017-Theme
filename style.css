@@ -1569,3 +1569,22 @@ table.wcpt-schedule .wcpt-session-speakers {
 table.wcpt-schedule .wcpt-session-speakers:before {
 	content: '- ';
 }
+
+
+/*--------------------------------------------------------------
+# Speakers
+--------------------------------------------------------------*/
+body.wcb_speaker-template-default article .entry-meta {
+	display: none;
+}
+body.wcb_speaker-template-default article {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 2em;
+}
+body.wcb_speaker-template-default .nav-prev {
+	float: left;
+}
+body.wcb_speaker-template-default .nav-next {
+	float: right;
+}
