@@ -1227,11 +1227,11 @@ hgroup h2.site-description {
 	#homepage-hero .star.small {
 		height: 6%;
 		width: 2.35%;
-		-ms-transform: rotate(18deg);
+		-ms-transform: rotate(48deg);
 	/* IE 9 */
-		-webkit-transform: rotate(18deg);
+		-webkit-transform: rotate(48deg);
 	/* Safari */
-		transform: rotate(18deg);
+		transform: rotate(48deg);
 		animation-name: tossing;
 		-webkit-animation-name: tossing;
 		animation-duration: 25s;
