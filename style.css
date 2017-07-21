@@ -1541,6 +1541,10 @@ table.tix_tickets_table th {
 table.wcpt-schedule {
 	margin-bottom: 2em;
 }
+table.wcpt-schedule thead {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
 table.wcpt-schedule td {
 	vertical-align: top;
 	padding: 0.5em 1em 0.5em 0;
