@@ -1574,6 +1574,16 @@ table.wcpt-schedule .wcpt-session-speakers:before {
 /*--------------------------------------------------------------
 # Speakers
 --------------------------------------------------------------*/
+.wcorg-speaker-description {
+	padding-bottom: 0.8em;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 2em;
+}
+.wcorg-speaker-description .avatar {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
 body.wcb_speaker-template-default article .entry-meta {
 	display: none;
 }
