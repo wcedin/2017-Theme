@@ -1608,3 +1608,13 @@ body.wcb_speaker-template-default .nav-next {
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 2.2em;
 }
+
+
+/*--------------------------------------------------------------
+# News
+--------------------------------------------------------------*/
+body.blog article {
+	padding-bottom: 2em;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 2em;
+}
