@@ -1579,7 +1579,7 @@ body.wcb_speaker-template-default article .entry-meta {
 }
 body.wcb_speaker-template-default article {
 	padding-bottom: 1em;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 2em;
 }
 body.wcb_speaker-template-default .nav-prev {
@@ -1587,4 +1587,13 @@ body.wcb_speaker-template-default .nav-prev {
 }
 body.wcb_speaker-template-default .nav-next {
 	float: right;
+}
+
+/*--------------------------------------------------------------
+# Sessions
+--------------------------------------------------------------*/
+.wcorg-sessions > .wcorg-session {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 2.2em;
 }
