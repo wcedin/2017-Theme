@@ -1549,6 +1549,18 @@ table.wcpt-schedule td {
 	vertical-align: top;
 	padding: 0.5em 1em 0.5em 0;
 }
+table.wcpt-schedule td.wcb-track-one {
+	background-color: #f0faff;
+	padding: .5em .5em;
+}
+table.wcpt-schedule td.wcb-track-two {
+	background-color: #fff0fa;
+	padding: .5em .5em;
+}
+table.wcpt-schedule td.wcb-track-one.wcb-track-two {
+	background-color: #fff;
+	padding: .5em .5em;
+}
 table.wcpt-schedule .wcpt-session-speakers {
 	display: block;
 	font-style: italic;
