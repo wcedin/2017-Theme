@@ -1148,25 +1148,25 @@ hgroup h2.site-description {
 
 @keyframes tossing {
 	0% {
-		transform: rotate(18deg);	
+		transform: rotate(20deg);	
 	}
 	50% {
 		transform: rotate(180deg);
 	}
 	100% {
-		transform: rotate(18deg);	
+		transform: rotate(20deg);	
 	}						
 }
 
 @-webkit-keyframes tossing {
 	0% {
-		-webkit-transform: rotate(18deg);	
+		-webkit-transform: rotate(20deg);	
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
 	}
 	100% {
-		-webkit-transform: rotate(18deg);	
+		-webkit-transform: rotate(20deg);	
 	}				
 }
 
