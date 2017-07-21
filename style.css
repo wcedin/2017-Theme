@@ -1515,14 +1515,7 @@ table.tix_tickets_table th {
  table.tix_tickets_table td:nth-child(4) {
   text-align: right;
  }
- @media (min-width: 601px) {
- table.tix_tickets_table td:nth-child(2):before {
-  content: 'Price: ';
-  float: left;
-  margin-right: 4px;
-  font-weight: 900;
- }
-}
+
  table.tix_tickets_table td:nth-child(3):before {
   content: 'Remaining Tickets: ';
   float: left;
@@ -1532,4 +1525,30 @@ table.tix_tickets_table th {
  table.tix_tickets_table td:last-child {
   border-bottom: 0;
  }
+}
+
+ @media (min-width: 601px) {
+ table.tix_tickets_table td:nth-child(2):before {
+  content: 'Price: ';
+  float: left;
+  margin-right: 4px;
+  font-weight: 900;
+ }
+}
+
+
+/*--------------------------------------------------------------
+# Schedule
+--------------------------------------------------------------*/
+
+table.wcpt-schedule {
+	margin-bottom: 2em;
+}
+table.wcpt-schedule td {
+	vertical-align: top;
+	padding: 0.5em 1em 0.5em 0;
+}
+table.wcpt-schedule .wcpt-session-speakers {
+	display: block;
+	font-style: italic;
 }
