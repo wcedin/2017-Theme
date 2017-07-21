@@ -1549,3 +1549,6 @@ table.wcpt-schedule .wcpt-session-speakers {
 	display: block;
 	font-style: italic;
 }
+table.wcpt-schedule .wcpt-session-speakers:before {
+	content: '- ';
+}
