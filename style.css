@@ -1548,6 +1548,7 @@ table.wcpt-schedule thead {
 table.wcpt-schedule td {
 	vertical-align: top;
 	padding: 0.5em 1em 0.5em 0;
+	text-align: center;
 }
 table.wcpt-schedule td.wcb-track-one {
 	background-color: #f0faff;
